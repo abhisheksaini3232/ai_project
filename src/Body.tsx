@@ -1,9 +1,9 @@
 // Body.tsx
 import React, { useState } from "react";
-import ModelSelector from "./ModelSelector";
-import PromptEditor from "./PromptEditor";
-import ParametersPanel from "./ParametersPanel";
-import OutputArea from "./OutputArea";
+import ModelSelector from "./ModelSelector.tsx";
+import PromptEditor from "./PromptEditor.tsx";
+import ParametersPanel from "./ParametersPanel.tsx";
+import OutputArea from "./OutputArea.tsx";
 
 const models = ["GPT-3.5", "GPT-4", "Custom"];
 

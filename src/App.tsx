@@ -2,11 +2,11 @@
 import React from "react";
 
 
-import Header from "./Header";
-import Body from "./Body";
-import Footer from "./Footer";
+import Header from "./Header.tsx";
+import Body from "./Body.tsx";
+import Footer from "./Footer.tsx";
 
-function App(){ (
+function App(){ return(
   <div className="flex flex-col min-h-screen bg-white">
     <Header />
     <Body />
