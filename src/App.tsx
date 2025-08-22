@@ -7,7 +7,7 @@ import Body from "./Body.tsx";
 import Footer from "./Footer.tsx";
 
 function App(){ return(
-  <div className="flex flex-col min-h-screen bg-white">
+  <div className="flex flex-col min-h-screen bg-black">
     <Header />
     <Body />
     <Footer />
